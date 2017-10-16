@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<package name="tutorial" extends="struts-default">
+		<action name="search" class="lab2.search">
+			<result name = "ok">/displaybook.jsp</result>
+		</action>
+		<action name="add" class="lab2.add">
+			<result name = "ok">/HelloWorld.jsp</result>
+		</action>
+		<action name="display" class="lab2.display">
+			<result name = "ok">/InfoList.jsp</result>
+		</action>
+		<action name="update" class="lab2.update">
+			<result name = "ok">/HelloWorld.jsp</result>
+		</action>
+		<action name="remove" class="lab2.remove">
+			<result name = "ok">/HelloWorld.jsp</result>
+		</action>
+	</package>
+</struts>
